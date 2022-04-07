@@ -3,17 +3,20 @@ package GiaiPt;
 public class PhuongTrinhBac2 {
 
     public PhuongTrinhBac2() {
+
     }
     private double a;
     private double b;
     private double c;
 
+    //  tạo contrustor có tham số
     public PhuongTrinhBac2(double a, double b, double c) {
         this.a = a;
         this.b = b;
         this.c = c;
     }
 
+//
     public double getA(){
         return a;
     }
