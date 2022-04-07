@@ -23,4 +23,9 @@ public class hoSo {
     public void setHoTen(String hoTen){
         this.hoTen=hoTen;
     }
+
+    public void ShowStudenst(){
+        System.out.println("họ tên      \t\t:" + getHoTen());
+        System.out.println("số cmnd         \t:"+getCMnd());
+    }
 }
